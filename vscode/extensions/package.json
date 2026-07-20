@@ -1,0 +1,22 @@
+{
+  "name": "sage-dark-theme",
+  "displayName": "Sage Dark Theme",
+  "version": "1.0.0",
+  "publisher": "angadsingh",
+  "description": "A soothing, dusty dark sage green color scheme for long coding sessions.",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sage Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sage-dark-color-theme.json"
+      }
+    ]
+  }
+}
