@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Sage Dark",
+  "name": "Sagewood",
   "colors": {
     "editor.background": "#2d3833",
     "editor.foreground": "#d2ded7",
@@ -25,7 +25,10 @@
     "menu.background": "#222a26",
     "menu.foreground": "#d2ded7",
     "menubar.selectionBackground": "#3b4a43",
-    "window.activeBorder": "#222a26"
+    "window.activeBorder": "#222a26",
+    "textLink.foreground": "#d2ded7",
+    "textLink.activeForeground": "#d2ded7",
+    "focusBorder": "#d2ded7"
   },
   "tokenColors": [
     {
