@@ -1,9 +1,15 @@
 {
-  "name": "sage-dark-theme",
-  "displayName": "Sage Dark Theme",
-  "version": "1.0.0",
-  "publisher": "angadsingh",
+  "name": "sagewood",
+  "displayName": "Sagewood",
+  "version": "2.0.0",
+  "license": "ISC",
+  "publisher": "cavebeargaming",
   "description": "A soothing, dusty dark sage green color scheme for long coding sessions.",
+  "icon": "assets/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sagewood-theme/IDE-themes.git"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -13,7 +19,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Sage Dark",
+        "label": "Sagewood",
         "uiTheme": "vs-dark",
         "path": "./themes/sage-dark-color-theme.json"
       }
